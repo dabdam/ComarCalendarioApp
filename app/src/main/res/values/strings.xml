@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Comar Calendario</string>
+    <string-array name="partidosJudiciales">
+        <item>Calatayud</item>
+        <item>Caspe</item>
+        <item>Daroca</item>
+        <item>Ejea de los Caballeros</item>
+        <item>La Almunia de Doña Godina</item>
+        <item>Tarazona</item>
+        <item>Zaragoza</item>
+        <item>Madrid</item>
+        <item>Pamplona</item>
+        <item>Valencia</item>
+    </string-array>
+    <string name="search_hint">Nombre de la tarea</string>
+</resources>
