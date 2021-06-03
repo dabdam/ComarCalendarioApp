@@ -126,8 +126,7 @@ public class ListActivity extends AppCompatActivity {
 
     //método para convertir en mayúscula la primera palabra introducida
     private String capitalizeText(String searchText){
-        String capitalizedText;
-        return capitalizedText = searchText.substring(0,1).toUpperCase() + searchText.substring(1);
+        return searchText.substring(0,1).toUpperCase() + searchText.substring(1);
     }
 }
 

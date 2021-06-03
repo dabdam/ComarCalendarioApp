@@ -29,7 +29,7 @@ public class Task {
         this.daysLimit=daysLimit;
         this.place=place;
         this.calendarList=calendarList;
-        setLimitDate(this.startDate, this.daysLimit, this.place);
+        setLimitDate(this.startDate, this.daysLimit);
         setId();
 
     }
@@ -52,7 +52,7 @@ public class Task {
 
     public String getId() { return id;}
 
-    public void setLimitDate(LocalDate startDate, int daysLimit, String place) {
+    public void setLimitDate(LocalDate startDate, int daysLimit) {
         LocalDate date = startDate;
         int dayCount = 0;
         do {
@@ -81,8 +81,7 @@ public class Task {
     }
 
     public void setId(){
-        String newId= UUID.randomUUID().toString();
-        this.id=newId;
+        this.id=UUID.randomUUID().toString();
     }
 
 }
