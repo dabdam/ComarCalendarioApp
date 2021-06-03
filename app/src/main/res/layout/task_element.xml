@@ -85,7 +85,7 @@
 
         <TextView
             android:id="@+id/tvAuthor"
-            android:layout_width="260dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
@@ -96,7 +96,7 @@
             android:id="@+id/ibDelete"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="0"
             android:background="#00FFFFFF"
             android:visibility="visible"
             app:srcCompat="@android:drawable/ic_delete" />
